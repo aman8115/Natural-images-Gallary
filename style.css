@@ -1,0 +1,91 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: gray;
+}
+.homenavbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+   
+
+}
+.navbarul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px ;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 30px ;
+    font-size: 25px ;
+    font-weight: 700;
+    
+}
+.herosection{
+    margin-top: 150px ;
+margin-left: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*  left content style*/
+p{
+    width: 550px ;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+span{
+    color: darkmagenta;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+}
+.span2{
+    color:teal;
+    font-size: 20px;
+    font-weight: 800;
+    
+
+}
+.list{
+    display: flex;
+    gap: 15px ;
+
+}
+.button{
+    height: 30px ;
+    width: 30px ;
+    border-radius: 50px ;
+    background-color: black;
+}
+/* right content style*/
+img{
+    margin-right: 40px ;
+    margin-bottom: 30px;
+    width: 600px ;
+ height: 350px ;
+
+}
+.zoom{
+    animation: zoomout 0.5s linear 1;
+}
+@keyframes zoomout{
+    0%{ transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+h1{
+    margin-left: 50px ;
+    color: yellowgreen;
+    font-weight: 800;
+}
+
+
+
+
+
